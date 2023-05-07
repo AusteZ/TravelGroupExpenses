@@ -1,18 +1,26 @@
-html {
-  font-size: 14px;
+:root {
+    --bg-blue: #2a3759;
+    --out-blue: #3a3556;
+    --dark-purple: #431d32;
+    --high-purple: #806491;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+* {
+    color: white;
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: var(--bg-blue);
+}
+
+.bg-purple, .bg-purple:hover, .bg-purple:focus {
+    background-color: var(--dark-purple);
+}
+
+.bg-out-blue {
+    background-color: var(--out-blue);
+}
+
+.bg-high-purple {
+    background-color: var(--high-purple);
 }
